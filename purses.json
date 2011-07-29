@@ -1,0 +1,19 @@
+{
+    "purses":[
+        {   
+            "sku": 1111,
+            "name": "East Melonford Original",
+            "price": 199.99
+        },
+        {   
+            "sku": 2222,
+            "name": "Ellonwood Dandy",
+            "price": 89.99
+        },
+        {   
+            "sku": 3333,
+            "name": "Cold Steel Mini-Tote",
+            "price": 399.99
+        }
+    ]
+}
