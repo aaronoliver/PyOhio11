@@ -17,7 +17,7 @@ class PurseDTO(object):
 
     def __init__(self, sku, price, name=None):
         self.sku = sku
-        if not price:
+        if price <= 0 :
             raise ValueError("Price cannot be zero")
         self.price = price
         self.name = name
